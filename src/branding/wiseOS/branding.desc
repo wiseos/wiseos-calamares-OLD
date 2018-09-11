@@ -1,0 +1,23 @@
+---
+componentName:  wiseOS
+
+strings:
+    productName:         wiseOS
+    shortProductName:    wiseOS
+    version:             1.0
+    shortVersion:        1.0
+    versionedName:       wiseOS
+    shortVersionedName:  wiseOS
+    bootloaderEntryName: wiseOS
+
+images:
+    productLogo:         "squid.png"
+    productIcon:         "logo.png"
+    productWelcome:      "calamares-wiseOS-intro.jpg"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#353945"
+   sidebarText:          "#ECEDEE"
+   sidebarTextSelect:    "#353945"
