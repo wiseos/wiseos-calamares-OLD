@@ -1,12 +1,11 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
-Type=Application
 Version=1.0
-Name=Install WiseOS GNU/Linux (Calamares)
-GenericName=Live Installer (Calamares)
-Comment=Install the operating system to disk
-Exec=/usr/bin/calamares_polkit %f
-Icon=calamares
-Terminal=false
-StartupNotify=true
+Name=Install WideOS
+GenericName=Live Installer
+Comment=Install WideOS to harddisk
+Exec=sudo -E calamares
+Icon=calamares_wideOS
+Terminal=False
 Type=Application
-Categories=Qt;System;
+Categories=System;
